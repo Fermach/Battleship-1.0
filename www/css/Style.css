@@ -1,56 +1,105 @@
+h1{
+    margin: 1px;
+/*    padding: 1px;*/
+}
 
+#configuracion {
+    text-align:left;
+    background-image: url("../img/madera.jpg");
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+table
+{ 
+    margin-left: auto;
+    margin-right: 3;
+    background-color: aliceblue;
+    font-weight:bolder;
+   
+}
+
+.informacion {
+    text-align: center;
+    background-color: #000;
+    border: solid red;
+   
+
+}
 .vacio {
     background-image: url("../img/vacio.jpg");
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    width: 32px;    
-    height: 32px;
+    width: 45px;    
+    height: 45px;
 }
 
 .fragata {
     background-image: url("../img/fragata.png");
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    width: 32px;    
-    height: 32px;
+    width: 45px;    
+    height: 45px;
 }
 
 .submarino {
     background-image: url("../img/sub.png");
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    width: 32px;    
-    height: 32px;
+    width: 45px;    
+    height: 45px;
 }
 
 .destructor {
-    background-image: url("../img/destructor.png");
+    background-image: url("../img/destructor2.png");
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    width: 32px;    
-    height: 32px;
+    width: 45px;    
+    height: 45px;
 }
 
 .buque {
     background-image: url("../img/buque.png");
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    width: 32px;    
-    height: 32px;
+    width: 45px;    
+    height: 45px;
 }
 
 .portaaviones{
     background-image: url("../img/pa.png");
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    width: 32px;    
-    height: 32px;
+    width: 45px;    
+    height: 45px;
 }
 #partida {
     background-image: url("../img/agua.jpg");
-    background-repeat: repeat;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
   
 }
-.agua {
-
+#navPage1 {
+  background-image: url("../img/menu.jpg");
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+}
+#creditos {
+  background-image: url("../img/creditos2.jpg");
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold
+    text-align: center;
+}
+#formulario {
+    background-image: url("../img/diana2.jpg");
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#puntuaciones {
+    background-image: url("../img/pun3.jpg");
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
