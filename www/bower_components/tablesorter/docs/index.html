@@ -27,21 +27,30 @@
 	<div class="digg">
 		<script src="http://images.del.icio.us/static/js/blogbadge.js"></script>
 	</div>
+	
 	<p>
 	  	<strong>Author:</strong> <a class="external" href="http://lovepeacenukes.com">Christian Bach</a><br />
-		<strong>Version:</strong> 2.0.4 (<a href="../changelog">changelog</a>)<br />
+		<strong>Version:</strong> 2.0.5 (<a href="../changelog">changelog</a>)<br />
 		<strong>Licence:</strong> 
 		Dual licensed under <a class="external" href="http://www.opensource.org/licenses/mit-license.php">MIT</a>
 		or <a class="external" href="http://www.opensource.org/licenses/gpl-license.php">GPL</a> licenses.
 	</p>
 	
-	<p class="tip">
-	<em>Helping out!</em> If you like tablesorter and you're feeling generous, take a look at my <a  class="external" href="http://www.amazon.com/gp/registry/wishlist/3VAOWCL63NEA6/ref=wl_web/">Amazon Wish List</a>
+	<p class="tip update">
+		<em>Update!</em> New version!, and the tablesorter docs are now available in russian, head over to <a class="external" href="http://tablesorter.ru/docs/">tablesorter.ru</a>
 	</p>
+	
+	<p class="tip">
+		<em>Helping out!</em> If you like tablesorter and you're feeling generous, take a look at my <a  class="external" href="http://www.amazon.com/gp/registry/wishlist/3VAOWCL63NEA6/ref=wl_web/">Amazon Wish List</a>
+	</p>
+
 
 	<p>Comments and love letters can be sent to: <span class="email">christian at tablesorter dot com</span>.</p>
 	
 	<p> </p>
+
+
+
 	<!--
 	<p class="tip">
 		<em>Help!</em> keep tablesorter.com up and running. If you like tablesorter, have a couple of bucks over or just feel like it. Please donate.</p>
@@ -87,7 +96,9 @@
   	<ul>
   		<li>Multi-column sorting</li>
   		<li>Parsers for sorting text, URIs, integers, currency, floats, IP addresses, dates (ISO, long and short formats), time.  <a href="example-parsers.html">Add your own easily</a></li>
-  		<li>Support for ROWSPAN and COLSPAN on TH elements</li>
+  		<!--
+		<li>Support for ROWSPAN and COLSPAN on TH elements</li>
+		-->
   		<li>Support secondary "hidden" sorting (e.g., maintain alphabetical sort when sorting on other criteria)</li>
   		<li>Extensibility via <a href="example-widgets.html">widget system</a></li>
   		<li>Cross-browser: IE 6.0+, FF 2+, Safari 2.0+, Opera 9.0+</li>	
@@ -190,7 +201,7 @@
 	<p>tablesorter works on standard HTML tables.  You must include THEAD and TBODY tags:</p>
 	
 	<pre class="html">
-&lt;table id="myTable"&gt;
+&lt;table id="myTable" class="tablesorter"&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 	&lt;th&gt;Last Name&lt;/th&gt;
@@ -286,6 +297,7 @@ $(document).ready(function()
 		<li><a href="example-trigger-sort.html">Sort table using a link outside the table</a></li>	
 		<li><a href="example-option-sort-force.html">Force a default sorting order</a></li>
 		<li><a href="example-option-sort-key.html">Change the default multi-sorting key</a></li>	
+		<li><a href="example-attribute-sort.html">Sorting on a table cell attribute</a></li>	
 	</ul>
 	<strong>Metadata - setting inline options</strong>
 	<ul>
@@ -495,7 +507,7 @@ th.headerSortDown {
 		
 	<strong id="Download-Addons">Optional/Add-Ons:</strong>
 	<ul>
-		<li><a class="external" href="http://jquery.com/dev/svn/trunk/plugins/metadata/lib/jQuery/metadata.js?format=raw">metadata.js</a> (3,7kb <strong>Required for setting <a href="#Examples">inline options</a></strong>)</li>
+		<li><a class="external" href="https://raw.githubusercontent.com/jquery-archive/jquery-metadata/master/jquery.metadata.js">metadata.js</a> (3,7kb <strong>Required for setting <a href="#Examples">inline options</a></strong>)</li>
 		<!--
 		<li><a class="external" href="http://dev.jquery.com/browser/trunk/plugins/dimensions/jquery.dimensions.
 .js?format=raw">jquery.dimensions.pack.js</a> (5,1kb, <a href="http://dean.edwards.name/packer/" class="external">packed</a>, for production. <strong>Required: for the <a href="example-pager.html">tablesorter pagination plugin</a></strong>)</li>
